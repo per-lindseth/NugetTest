@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MyLibraries</id>
+    <version>1.0.0</version>
+    <authors>Per B. Lindseth</authors>
+    <owners>PBL</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Static and dynamic libraries for C++ projects.</description>
+    <tags>native c++ library dll lib</tags>
+  </metadata>
+
+  <files>
+    <file src="x64\Debug\MyLib.lib" target="build\native\MyLib.lib" />
+    <file src="x64\Debug\MyDll.dll" target="build\native\MyDll.dll" />
+    <file src="x64\Debug\MyDll.lib" target="build\native\MyDll.lib" />
+    <file src="MyLibraries.targets" target="build\native\MyLibraries.targets" />
+	<!-- Headers -->
+    <file src="MyLib\include\**\*" target="build\native\include\" />
+    <file src="MyDll\include\**\*" target="build\native\include\" />
+  </files>
+</package>

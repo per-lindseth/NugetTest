@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\NuGetTest\\NugetTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D219498-0F1A-48ED-B723-F3FCAEF6B2CF}|NugetTest\\NugetTest.vcxproj|C:\\Repos\\NuGetTest\\NugetTest\\NugetTest\\NugetTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D219498-0F1A-48ED-B723-F3FCAEF6B2CF}|NugetTest\\NugetTest.vcxproj|solutionrelative:NugetTest\\NugetTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NugetTest.cpp",
+              "DocumentMoniker": "C:\\Repos\\NuGetTest\\NugetTest\\NugetTest\\NugetTest.cpp",
+              "RelativeDocumentMoniker": "NugetTest\\NugetTest.cpp",
+              "ToolTip": "C:\\Repos\\NuGetTest\\NugetTest\\NugetTest\\NugetTest.cpp",
+              "RelativeToolTip": "NugetTest\\NugetTest.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-29T10:47:16.107Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

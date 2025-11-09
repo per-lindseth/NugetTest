@@ -1,0 +1,26 @@
+﻿<Project>
+  <!-- Add include folder -->
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>
+        $(MSBuildThisFileDirectory)include;%(AdditionalIncludeDirectories)
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>
+        $(MSBuildThisFileDirectory)MyLib.lib;
+        $(MSBuildThisFileDirectory)MyDll.lib;
+        %(AdditionalDependencies)
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <!-- Copy DLL to output -->
+  <Target Name="CopyMyDll" AfterTargets="Build">
+    <Copy
+      SourceFiles="$(MSBuildThisFileDirectory)MyDll.dll"
+      DestinationFolder="$(OutDir)"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+</Project>
