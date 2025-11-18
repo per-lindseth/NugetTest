@@ -41,5 +41,6 @@
 *.dwo
 
 #Visual Studio cache/options directory
-.vs/
-x64/
+**/.vs/
+**/v17/
+**/x64/
